@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Tophead Section Start*/
+.tophead{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    padding: 0px 100px;
+    text-align: center;
+    background: #05571d;
+    justify-content: space-between;
+}
+.tophead ul li{
+color: #fff;
+margin: 0px 3px;
+display: inline-block;
+margin-top: 10px;
+}
+.tophead ul li a{
+    color: #c2e4c6;
+    text-decoration: none;
+}
+/*Tophead Section End*/
+
+/* Header Section Start */
+header{
+    width: 100%;
+    height: 100px;
+    color: #fff;
+    padding: 0px 100px;
+    line-height: 100px;
+    background: #3fba64;
+}
+header h1{
+    color: #fff;
+    padding: 0px 100px;
+    line-height: 100px;
+    background: #3fba64;
+}
+header h1{
+    font-size: 50px;
+    margin-right: 20px;
+}
+header h3{
+    color: #fff;
+}
+/* Header Section End */
+
+/* Navbar Section Start */
+nav{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 100px;
+    background: #83e3a0;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 20px;
+    display: inline-block;
+}
+nav ul li a{
+    color: #000;
+    font-weight: 600;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    font-size: 100%;
+    transition: 0.3s linear;
+    color: rgb(226, 84, 84);
+}
+/* Navbar Section End */
+
+ /* Content Section Start */
+ section{
+    padding: 0px 100px;
+}
+ section main{
+    width: 80%;
+    float: left;
+    padding-top: 20px;
+ }
+ section aside{
+    width: 20%;
+    float: right;
+    padding: 20px 15px;
+    background: #b9dbbe;
+ }
+ aside ul li{
+    font-weight: 600;
+    list-style: none;
+ }
+ aside ul li ul li{
+    padding-left: 20px;
+    font-weight: normal;
+ }
+  p a{
+    color: green;
+ }
+ .para{
+    padding-left: 20px;
+ }
+ ul {
+    padding-left: 40px;
+ }
+ p f{
+    font-weight: 600;
+ }
+  .list li{
+    list-style-type: numeric;
+  }
+ /* Content Section End */
+
+ /* Footer Section Start */
+ footer{
+    width: 100%;
+    height: 100px;
+    color: #e6dcdd;
+    padding: 10px 100px;
+    background: #7fca96;
+ }
+ footer .links{
+    width: 33%;
+    float: left;
+ }
+ footer .follow{
+    width: 33%;
+    float: left;
+ }
+ footer .copy{
+    width: 34%;
+    float: right;
+    text-align: right;
+ }
+  
+ /* Footer Section End */
